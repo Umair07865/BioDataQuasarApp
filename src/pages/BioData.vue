@@ -61,7 +61,7 @@
             <td class="text-right">{{ item.ip }}</td>
             <td class="text-right">{{ item.macAddress }}</td>
             <td>
-              <q-btn color="red" @click="Delete(item.id)"> Delete {{ item.id }}</q-btn>
+              <q-btn color="red" @click="Delete(item.id)"> Delete</q-btn>
             </td>
           </tr>
         </tbody>
