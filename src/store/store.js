@@ -7,12 +7,6 @@ const store = new Vuex.Store({
   state: {
     users: [],
     loading: false,
-    alerts: {
-      message: '',
-      color: '',
-      value: false,
-      total : 5,
-    },
   },
   mutations: {
     addData(state, payload) {
@@ -110,7 +104,6 @@ const store = new Vuex.Store({
   },
   getters: {
     getterData: (state) => state.users,
-    alertNow: (state) => state.alerts,
     loading: (state) => state.loading,
     total: (state) => state.total,
   },

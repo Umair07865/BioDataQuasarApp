@@ -97,7 +97,6 @@ export default {
     }
     const allData = computed(() => store.getters.getterData)
     const total = computed(() => store.getters.total)
-    const toasts = computed(() => store.getters.alertNow)
     const loading = computed(() => store.getters.loading)
     const Delete = (id) => {
       const item = allData.value.find((item) => item.id === id)
@@ -111,7 +110,6 @@ export default {
       allData,
       filterUsers,
       Delete,
-      toasts,
       loading,
       refresh,
       current,
