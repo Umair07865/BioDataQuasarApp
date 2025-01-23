@@ -35,7 +35,7 @@
             <th class="text-right">Address</th>
             <th class="text-right">Gender</th>
             <th class="text-right">Weight</th>
-            <th class="text-right">Crypto/Coins</th>
+            <th class="text-right">Coins/Crypto</th>
 
             <th class="text-right">Network/Crypto</th>
 
